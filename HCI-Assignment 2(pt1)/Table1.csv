@@ -1,2 +1,26 @@
 ,Website,Link,Link Load Time,Status,Link is dead/timed out
-0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,http://rural.nic.in/,5.302906513214111,200,N
+0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,http://rural.nic.in/,4.663289737701416,302,N
+0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,https://nregade.nic.in/netnrega/Login.aspx?&level=HomePO&state_code=06,0.4229330539703369,200,N
+0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,https://nregade.nic.in/Netnrega/Login.aspx?&level=HomeGP&state_code=06,0.3469663143157959,200,N
+0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,http://nrega.nic.in/netnrega/HomeAdmin.aspx,0.3522810935974121,307,N
+0,https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx,https://nrega.nic.in/Nregahome/Homeagency_new.aspx,0.3095252513885498,200,N
+0,https://www.usa.gov/,https://www.usa.gov/#content,0.026813554763793945,200,N
+0,https://www.usa.gov/,https://beta.usa.gov/,1.066487979888916,200,N
+0,https://www.usa.gov/,https://www.usa.gov/,1.1648347854614258,200,N
+0,https://www.usa.gov/,https://www.usa.gov/espanol/,0.7284801959991455,200,N
+0,https://www.usa.gov/,https://www.usa.gov/phone,0.7398124217987061,200,N
+0,https://www.bits-pilani.ac.in/,https://www.bits-pilani.ac.in/index.aspx,1.0754101276397705,200,N
+0,https://www.bits-pilani.ac.in/,https://www.bits-pilani.ac.in/Overview,1.4979568481445313,200,N
+0,https://www.bits-pilani.ac.in/,https://www.bits-pilani.ac.in/bitsFactsHistory,1.192216730117798,200,N
+0,https://www.bits-pilani.ac.in/,https://www.bits-pilani.ac.in/visitbits,1.2446361541748048,200,N
+0,https://www.bits-pilani.ac.in/,https://www.bits-pilani.ac.in/AwardsandAccreditations,1.6588806629180908,200,N
+0,https://medium.com/,https://medium.com/,0.5237812995910645,200,N
+0,https://medium.com/,https://medium.com/about?autoplay=1,1.3926846504211425,404,Y
+0,https://medium.com/,https://medium.com/membership,0.8322359561920166,404,Y
+0,https://medium.com/,https://about.medium.com/creators/,1.8596828937530518,301,N
+0,https://medium.com/,https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fmedium.com%2F&source=--------------------------lo_home_nav-----------,0.6552648544311523,200,N
+0,https://www.education.gov.in/en,https://www.education.gov.in/,3.1505011558532714,301,N
+0,https://www.education.gov.in/en,https://www.education.gov.in/en#main-content,0.017915630340576173,200,N
+0,https://www.education.gov.in/en,https://www.education.gov.in/en#header,0.015383434295654298,200,N
+0,https://www.education.gov.in/en,https://www.education.gov.in/screen-reader-access,0.912881326675415,301,N
+0,https://www.education.gov.in/en,https://www.education.gov.in/en#,0.014545917510986328,200,N
