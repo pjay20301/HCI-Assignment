@@ -11,30 +11,32 @@ warnings.filterwarnings('ignore')
 
 
 driver = webdriver.Edge(r"C:\Users\adars\Downloads\edgedriver_win64\msedgedriver.exe")
+
 driver.maximize_window()
 driver.set_page_load_timeout(50)
 
-WEBSITES = ["https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx", "https://www.usa.gov/", "https://www.bits-pilani.ac.in/","https://medium.com/","https://www.education.gov.in/en"]
+WEBSITES = ["https://nrega.nic.in/Nregahome/MGNREGA_new/Nrega_home.aspx","https://www.usa.gov/","https://www.bits-pilani.ac.in/","https://medium.com/","https://www.isro.gov.in/","https://www.education.gov.in/en"]
 
 
 
 table1 = pd.DataFrame(columns=['Website', 'Link', 'Link Load Time' , 'Status', 'Link is dead/timed out'])
 table2 = pd.DataFrame(columns=['Website', 'Average Link Load Time' , 'Dead Links', 'Working Links', 'Total Links', 'Score'])
+n=1
 for homepage in WEBSITES:
     driver.get(homepage)
     time.sleep(10)
-    print("Website title is ",driver.title)
+    title = driver.title
+    print("Website title is ",title)
     print("Website URL is ",driver.current_url)
     list_links = driver.find_elements(By.TAG_NAME , "a")
     urls = []
-    
+    tble = pd.DataFrame(columns=['Website', 'Link', 'Link Load Time' , 'Status', 'Link is dead/timed out'])
     for links in list_links:
         txt = links.get_attribute('text')
         url = links.get_attribute('href')
         if(url != None and url.startswith("http")):
             print(txt + " : " + url)
             urls.append(url)
-    urls  = urls[0:5]
     total_links = len(urls)
     dead_links = 0
     active_links = 0
@@ -46,19 +48,29 @@ for homepage in WEBSITES:
         status = 0
         
         print(str(url_count)+" Navigating to : " + url)
-        response = requests.head(url,verify=False)
-        print("STATUS : "+str(response.status_code))
-        status = response.status_code
+        status = 999
+        try:
+            response = requests.head(url,verify=False)
+            print("STATUS : "+str(response.status_code))
+            status = response.status_code
+        except:
+            pass
         num = 1
         while (num<=5):
             start = time.time()
-            driver.get(url) 
+            try:
+                driver.get(url) 
+            except:
+                pass
             end = time.time()
             d = end-start
             print("Link load time " + str(num) + " : "+str(d))
             avg_llt += d
             time.sleep(1)
-            driver.get(homepage)
+            try:
+                driver.get(homepage)
+            except:
+                pass
             time.sleep(1)
             num += 1
 
@@ -75,11 +87,16 @@ for homepage in WEBSITES:
             new_row1 = pd.DataFrame([{'Website':homepage, 'Link':url, 'Link Load Time':avg_llt , 'Status':status, 'Link is dead/timed out':'N'}])
 
         table1 = pd.concat([table1,new_row1])
+        tble = pd.concat([tble,new_row1])
+
         url_count += 1    
     
     web_llt = web_llt / total_links
     new_row2 = pd.DataFrame([{'Website':homepage, 'Average Link Load Time':web_llt , 'Dead Links':dead_links,'Working Links':active_links, 'Total Links':total_links, 'Score':0}])
     table2 = pd.concat([table2,new_row2])
+    tble.to_csv('Table_website ' + str(n) + '.csv')
+    n+=1
+
     
 
 llt = table2['Average Link Load Time']
