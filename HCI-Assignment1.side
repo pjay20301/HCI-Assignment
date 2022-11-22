@@ -1,0 +1,473 @@
+{
+  "id": "c58a541d-15d5-48dd-aa89-7242c75929de",
+  "version": "2.0",
+  "name": "HCI-Assignment",
+  "url": "https://www.yatra.com/",
+  "tests": [{
+    "id": "42404195-6c6b-4beb-8703-a43dfb90a726",
+    "name": "mmt",
+    "commands": [{
+      "id": "090bce80-01ad-4c98-b838-19ad96329213",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2af7be0c-3ef7-49ad-b6a6-fa3c6c40680c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1846x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0df259f5-528a-4b97-8bff-1abf8e4b667e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Trains",
+      "targets": [
+        ["linkText=Trains", "linkText"],
+        ["css=.menu_Trains .makeFlex", "css:finder"],
+        ["xpath=//div[@id='SW']/div/div[2]/div/div/nav/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.makemytrip.com/railways/')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trains')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79aca9cd-11b6-419e-971d-7270e9cd0617",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trains",
+      "targets": [
+        ["linkText=Trains", "linkText"],
+        ["css=.menu_Trains .makeFlex", "css:finder"],
+        ["xpath=//div[@id='SW']/div/div[2]/div/div/nav/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.makemytrip.com/railways/')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trains')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1962b646-acdd-4e2b-b7e2-47a80d50d909",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=fromCity",
+      "targets": [
+        ["id=fromCity", "id"],
+        ["css=#fromCity", "css:finder"],
+        ["xpath=//input[@id='fromCity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b633153e-456b-4da5-a28b-72b2aae8fae3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e12166f1-aae9-4e84-9cf8-6097ad69cc36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.activeWidget",
+      "targets": [
+        ["css=.activeWidget", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f4ca43-fd03-4907-9166-70f6e82fb237",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='de']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "de"
+    }, {
+      "id": "4a801757-f1c0-4dc3-9dcc-1f87bc20244c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .searchedResult > .sr_city",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .searchedResult > .sr_city", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div/p/span", "xpath:idRelative"],
+        ["xpath=//div/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delhi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95b9ed7c-6310-4fb1-bfeb-0cf8fb1fdb01",
+      "comment": "",
+      "command": "type",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='hy']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "hy"
+    }, {
+      "id": "b294b666-8e4e-4c16-88eb-35d53657f89e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 p:nth-child(2)",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 p:nth-child(2)", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//div/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Hyderabad Deccan Nampally Railway Station')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed791c4f-ab41-4dba-9cf7-c517db502473",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(4) > .DayPicker-Day:nth-child(5)",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(4) > .DayPicker-Day:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[4]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "301d0b7a-d7de-427b-87c9-fc0e86d54c08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travelForPopup > li:nth-child(2)",
+      "targets": [
+        ["css=.travelForPopup > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[4]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Sleeper Class')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8bcbc2-7f09-4fc5-a90d-f2fd1e9cc336",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primaryBtn",
+      "targets": [
+        ["css=.primaryBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d9acec0-72da-4af9-92fb-9d08652cce8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02884f4b-11b6-4bd6-9642-5fc08d0bdd3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-center:nth-child(3)",
+      "targets": [
+        ["css=.justify-center:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29d3770-6268-4d90-9a9e-71119f94e3b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-center:nth-child(3)",
+      "targets": [
+        ["css=.justify-center:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aadaa69-7edd-4822-a7f8-cf85dd78a63d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.justify-center:nth-child(3)",
+      "targets": [
+        ["css=.justify-center:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a4f0e12-bb3d-4290-8cfc-df5a51974c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.justify-center:nth-child(3)",
+      "targets": [
+        ["css=.justify-center:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81fe343a-e0cb-4bab-87a8-747826b482e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-train-detail:nth-child(3) .flex-column:nth-child(1) > .card",
+      "targets": [
+        ["css=.single-train-detail:nth-child(3) .flex-column:nth-child(1) > .card", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div/div[2]/div[3]/div[3]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cbc3693-e46b-40b2-9efb-64a8e595ade9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.textRight",
+      "targets": [
+        ["css=.textRight", "css:finder"],
+        ["xpath=//div[6]/div/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3450cf5a-dba9-4791-bf63-f5dd902c1110",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "36d228df-2175-454b-a48a-1feeb124215d",
+    "name": "yatra",
+    "commands": [{
+      "id": "0979ad04-2ae2-4e72-912b-f846b60584e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.yatra.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a59284-40a3-43f9-b3c9-f5401dfba616",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1846x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85b8d1a2-21d1-4481-a6c4-0df6f6325b81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.more-arr",
+      "targets": [
+        ["css=.more-arr", "css:finder"],
+        ["xpath=//div[@id='bEnginePos']/ul/li[7]/span", "xpath:idRelative"],
+        ["xpath=//li[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'+ More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "456b6f8c-a45c-48d9-bfb9-74180e5a0925",
+      "comment": "",
+      "command": "click",
+      "target": "css=#booking_engine_trains > span",
+      "targets": [
+        ["css=#booking_engine_trains > span", "css:finder"],
+        ["xpath=//a[@id='booking_engine_trains']/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Trains')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f706b193-23a7-4da6-b360-704e6ab39454",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-gift_voucher",
+      "targets": [
+        ["css=.icon-gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']/div/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/ul/li[3]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be7b7fe5-3562-4400-be24-75b0e5199ac1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-gift_voucher",
+      "targets": [
+        ["css=.icon-gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']/div/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/ul/li[3]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5182ed6-62e2-47ae-810a-1a511b18520a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=booking_engine_gift_voucher",
+      "targets": [
+        ["id=booking_engine_gift_voucher", "id"],
+        ["css=#booking_engine_gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']", "xpath:attributes"],
+        ["xpath=//div[@id='bEnginePos']/ul/li[7]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.yatra.com/online/gift-voucher')]", "xpath:href"],
+        ["xpath=//li[7]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f79428d-a31b-4455-93af-69dc4f4dd743",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=booking_engine_gift_voucher",
+      "targets": [
+        ["id=booking_engine_gift_voucher", "id"],
+        ["css=#booking_engine_gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']", "xpath:attributes"],
+        ["xpath=//div[@id='bEnginePos']/ul/li[7]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.yatra.com/online/gift-voucher')]", "xpath:href"],
+        ["xpath=//li[7]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96680048-9950-4137-af89-2a151f987f94",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=booking_engine_gift_voucher",
+      "targets": [
+        ["id=booking_engine_gift_voucher", "id"],
+        ["css=#booking_engine_gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']", "xpath:attributes"],
+        ["xpath=//div[@id='bEnginePos']/ul/li[7]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.yatra.com/online/gift-voucher')]", "xpath:href"],
+        ["xpath=//li[7]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a547da73-a2c8-4792-bf82-182cee022c26",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=booking_engine_gift_voucher",
+      "targets": [
+        ["id=booking_engine_gift_voucher", "id"],
+        ["css=#booking_engine_gift_voucher", "css:finder"],
+        ["xpath=//a[@id='booking_engine_gift_voucher']", "xpath:attributes"],
+        ["xpath=//div[@id='bEnginePos']/ul/li[7]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.yatra.com/online/gift-voucher')]", "xpath:href"],
+        ["xpath=//li[7]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c9078ee-8268-44e2-a44b-6c854d29399e",
+      "comment": "",
+      "command": "click",
+      "target": "id=BE_train_from_station",
+      "targets": [
+        ["id=BE_train_from_station", "id"],
+        ["name=train_from_station", "name"],
+        ["css=#BE_train_from_station", "css:finder"],
+        ["xpath=//input[@id='BE_train_from_station']", "xpath:attributes"],
+        ["xpath=//div[@id='booking_engine_modues']/div/div/div/ul/li/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a17edf8-f4d3-4c99-8489-7790e3cf5bea",
+      "comment": "",
+      "command": "type",
+      "target": "id=BE_train_from_station",
+      "targets": [
+        ["id=BE_train_from_station", "id"],
+        ["name=train_from_station", "name"],
+        ["css=#BE_train_from_station", "css:finder"],
+        ["xpath=//input[@id='BE_train_from_station']", "xpath:attributes"],
+        ["xpath=//div[@id='booking_engine_modues']/div/div/div/ul/li/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "del"
+    }, {
+      "id": "812272cc-b59b-454b-acf5-5c9c73614753",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.show-depart",
+      "targets": [
+        ["css=.show-depart", "css:finder"],
+        ["xpath=//div[@id='booking_engine_modues']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01531ec2-ca54-4047-a127-7b3d4713b941",
+      "comment": "",
+      "command": "click",
+      "target": "css=.train-info-block:nth-child(2) > .relundefinedSL > p",
+      "targets": [
+        ["css=.train-info-block:nth-child(2) > .relundefinedSL > p", "css:finder"],
+        ["xpath=//div[@id='trainSrp']/ul[2]/li[12]/p", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[12]/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb33340a-e459-4c0a-adc4-fd0fac5fb3b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=trainquota22",
+      "targets": [
+        ["id=trainquota22", "id"],
+        ["css=#trainquota22", "css:finder"],
+        ["xpath=//input[@id='trainquota22']", "xpath:attributes"],
+        ["xpath=//div[@id='trainSrp']/ul[2]/li[15]/article[3]/div[2]/div/label/span/span/input", "xpath:idRelative"],
+        ["xpath=//article[3]/div[2]/div/label/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5d8dcec-f34d-45b5-a5e3-1855448a7eb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=bookBtn2",
+      "targets": [
+        ["id=bookBtn2", "id"],
+        ["css=#bookBtn2", "css:finder"],
+        ["xpath=//button[@id='bookBtn2']", "xpath:attributes"],
+        ["xpath=//div[@id='trainSrp']/ul[2]/li[15]/article[7]/div/div/button", "xpath:idRelative"],
+        ["xpath=//article[7]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6760d73d-4145-4c3d-88b0-5050b3279c6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=bookNowBtn",
+      "targets": [
+        ["id=bookNowBtn", "id"],
+        ["css=#bookNowBtn", "css:finder"],
+        ["xpath=//input[@id='bookNowBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='bookNow']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83ade859-81b5-4bfd-a74b-29cda1761419",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["42404195-6c6b-4beb-8703-a43dfb90a726"]
+  }],
+  "urls": ["https://www.makemytrip.com/"],
+  "plugins": []
+}
