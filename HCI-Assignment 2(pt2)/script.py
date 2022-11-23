@@ -1,6 +1,6 @@
 import json
 
-f = open('newirctc.side')
+f = open('irctc.side')
 
 data = json.load(f)
 
